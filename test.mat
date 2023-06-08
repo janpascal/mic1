@@ -1,0 +1,14 @@
+TEST.MIC
+mar:=pc; rd;
+rd;
+ir:=copy(mbr);
+pc:=+(pc,1);
+mar:=ir; mbr:=copy(ac); wr;
+alu:=copy(tir); if n then goto 15;
+ac:=not(mbr);
+tir:=lshift copy(tir); if n then goto 25;
+alu:=copy(ac); if z then goto 22;
+ac:=band(ir,amask); goto 0;
+sp:=+(sp,-1); rd;
+tir:=lshift +(ir,ir); if n then goto 69;
+
