@@ -1,4 +1,3 @@
-
 # Microprogramming, a mic1/mac1 simulator written in Pascal
 
 ## Introduction
@@ -7,14 +6,14 @@ While searching for some old documents, I came across an old simulator for Tanen
 
 ## Features
 
-    MIC-1 microcode assembler (micasm)
-    MAC-1 assembler (macasm)
-    Full simulator (micropro)
-    Shows microcode memory, main memory, all registers, latches and other internals (ALU, MMUX, LatchA, LatchB, MAR, MBR, IR, MIR, MPC)
-    Single-step on clock phase (1-4), micro instruction or macro instruction, "run to" feature
-    Simulates character output. No input.
-    Includes microcode for the MAC-1 instruction set (micro.mic)
-    Includes an example MAC-1 program that fills two vectors with numbers, calculates the vector product, and output the result in hex
+- MIC-1 microcode assembler (micasm)
+- MAC-1 assembler (macasm)
+- Full simulator (micropro)
+- Shows microcode memory, main memory, all registers, latches and other internals (ALU, MMUX, LatchA, LatchB, MAR, MBR, IR, MIR, MPC)
+- Single-step on clock phase (1-4), micro instruction or macro instruction, "run to" feature
+- Simulates character output. No input.
+- Includes microcode for the MAC-1 instruction set (micro.mic)
+- Includes an example MAC-1 program that fills two vectors with numbers, calculates the vector product, and output the result in hex
 
 ## Building from source code
 
@@ -35,21 +34,21 @@ $ make run
 
 ## License
 
-    Copyright (C) 1991,2011 Jan-Pascal van Best <janpascal@vanbest.org>
+Copyright (C) 1991,2011, 2023 Jan-Pascal van Best <janpascal@vanbest.org>
    
-    MicroProgramming is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+MicroProgramming is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    MicroProgramming is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+MicroProgramming is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with MicroProgramming.  If not, see <http://www.gnu.org/licenses/>
+You should have received a copy of the GNU General Public License
+along with MicroProgramming.  If not, see <http://www.gnu.org/licenses/>
 
 ## Screen shot
 
-Screenshot of the MIC-1 simulator
+![afbeelding](https://github.com/janpascal/mic1/assets/1530584/b86224a7-a401-4616-95bb-6a70aa301cda)
