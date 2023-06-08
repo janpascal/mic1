@@ -1,0 +1,8 @@
+.*.swp
+*.MAC
+*.MIC
+*.o
+*.ppu
+macasm
+micasm
+micropro
